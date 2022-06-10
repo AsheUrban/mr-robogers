@@ -16,12 +16,17 @@ function beepBoop(number) {
 }
 
 //UI Logic
-$(document).ready(function(){
-  $("form#be-my-neighbor").submit(function(event){
+
+$(document).ready(function() {
+  $("form#be-my-neighbor").submit(function(event) {
     event.preventDefault();
+    //gather values from input fields
     const numbers = $("#number");
-    const beeperBooper = beepBoop(numbers);
-    $("#output").neighborSong(beeperBooper);
+    //get beepBoop
+    const beeperBooper = beepBoop(number);
+    console.log(beeperBooper);
+    //output results in HTML
+    $("#output").html(beeperBooper);
   });
 });
 
