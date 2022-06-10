@@ -1,3 +1,5 @@
+// Business Logic
+
 //  v-3 Range + "Beep!" --- changes index = 1, but not 10, etc.
 
 function beepBoop(number) {
