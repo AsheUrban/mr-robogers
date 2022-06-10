@@ -24,13 +24,12 @@ $(document).ready(function() {
     const numbers = $("#number");
     //get beepBoop
     const beeperBooper = beepBoop(number);
-    console.log(beeperBooper);
     //output results in HTML
     $("#output").html(beeperBooper);
   });
 });
 
-// Business Logic
+// Business Logic v-1, v-2 iterations
 
 // v-1 Range
 
