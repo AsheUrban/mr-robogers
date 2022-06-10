@@ -29,6 +29,13 @@ Test: "It should return an array of numbers from 0 to the user's inputted number
 Code: beepBoop(5);
 Expected Output: [0, 1, 2, 3, 4, 5]
 
+Test: "It should return "Beep!"
+Code: numberArray.includes(1)
+Expected Output: "Beep!"
+Ex: 5, [0, "Beep!", 2,3,4,..9,"Beep!"]
+
+if number includes 2 return "Boop!"
+if number includes 3 return "Won't you be my neighbor?"
 
 ## Setup/Installation Requirements
 
