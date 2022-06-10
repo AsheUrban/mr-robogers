@@ -49,7 +49,8 @@ if number includes 3 return "Won't you be my neighbor?"
 
 ## Known Bugs
 
-* text
+* Application only changes index who's value is = 1,2, or 3.
+* UI logic is not complete and does not function.
 
 ## License
 
