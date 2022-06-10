@@ -8,7 +8,7 @@
 ## Technologies Used
 
 * HTML
-* CSS
+* CSS 
 * Markdown
 * JavaScript
 * jQuery
@@ -16,6 +16,7 @@
 ## Description
 
 _For our third independent project we are asked to develop an app that takes a number and returns a phrase, or two._
+
 _Link to lesson:_ https://epicenter.epicodus.com/courses/966/code_reviews/5848
 
 ## Tests
@@ -25,18 +26,26 @@ Test: "It should return an array including the user's inputted number"
 Code: beepBoop(5);
 Expected Output: [5]
 
+_See v-1 function at bottom of scripts_
+
 Test: "It should return an array of numbers from 0 to the user's inputted number"
 Code: beepBoop(5);
 Expected Output: [0, 1, 2, 3, 4, 5]
+
+_See v-1 function at bottom of scripts (not active)_
 
 Test: "It should return "Beep!"
 Code: numberArray.includes(1)
 Expected Output: "Beep!"
 Ex: 5, [0, "Beep!", 2,3,4,..9,"Beep!"]
 
+_See v-2 function at bottom of scripts (not active)_
+
 Test: "It should return "Beep!", "Boop!", "Won't you be my neighbor?"
 Code: if (numberArray.includes(2)), ...(3))
 Expected Output: [0, 'Beep!', 'Boop', "Won't you be my neighbor?", 4, 5, ...]
+
+_See v-3 function at top of scripts (active Business Logic)_
 
 if number includes 2 return "Boop!"
 if number includes 3 return "Won't you be my neighbor?"
@@ -51,6 +60,7 @@ if number includes 3 return "Won't you be my neighbor?"
 
 * Application only changes index who's value is = 1,2, or 3.
 * UI logic is not complete and does not function.
+* No CSS styles have been customized.
 
 ## License
 
