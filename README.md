@@ -34,6 +34,10 @@ Code: numberArray.includes(1)
 Expected Output: "Beep!"
 Ex: 5, [0, "Beep!", 2,3,4,..9,"Beep!"]
 
+Test: "It should return "Beep!", "Boop!", "Won't you be my neighbor?"
+Code: if (numberArray.includes(2)), ...(3))
+Expected Output: [0, 'Beep!', 'Boop', "Won't you be my neighbor?", 4, 5, ...]
+
 if number includes 2 return "Boop!"
 if number includes 3 return "Won't you be my neighbor?"
 

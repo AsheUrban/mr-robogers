@@ -10,7 +10,6 @@ function beepBoop(number) {
   return numberArray;
 }
 
-
 // v-2 Range + "Beep!"
 
 function beepBoop(number) {
@@ -30,9 +29,13 @@ function beepBoop(number) {
   let numberArray = [];
   for (let index = 0; index <= parseInt(number); index += 1) {
     numberArray.push(index);
-    if (numberArray.includes(1)) { 
-      numberArray[index] = "Beep!"
-    }
+    if (numberArray.includes(3)) { 
+      numberArray[index] = "Won't you be my neighbor?"
+    } else if (numberArray.includes(2)) { 
+      numberArray[index] = "Boop!"
+      } else if (numberArray.includes(1)) { 
+        numberArray[index] = "Beep!"
+      } 
   }
   return numberArray;
 }
