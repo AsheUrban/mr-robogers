@@ -24,6 +24,7 @@ $(document).ready(function() {
     const numbers = $("#number");
     //get beepBoop
     const beeperBooper = beepBoop(number);
+    console.log(beeperBooper);
     //output results 
     $("#output").beeperBooper;
   });
