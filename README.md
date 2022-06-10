@@ -21,9 +21,9 @@ _Link to lesson:_ https://epicenter.epicodus.com/courses/966/code_reviews/5848
 ## Tests
 # _Describe: beepBoop()_
 
-Test: "It should return an array of numbers from 0 to the user's inputted number"
+Test: "It should return an array including the user's inputted number"
 Code: beepBoop(5);
-Expected Output: [0, 1, 2, 3, 4, 5]
+Expected Output: [5]
 
 
 ## Setup/Installation Requirements
