@@ -58,7 +58,7 @@ if number includes 3 return "Won't you be my neighbor?"
 
 ## Known Bugs
 
-* UI logic is not complete and does not function.
+* Form does not clear when submitted.
 * No CSS styles have been customized.
 
 ## License
