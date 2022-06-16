@@ -31,5 +31,8 @@ $(document).ready(function() {
 
     //output results 
     $("#output").text(beeperBooper);
+
+    function logReset() {
+    }
   });
 });
