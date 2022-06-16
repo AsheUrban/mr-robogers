@@ -20,13 +20,16 @@ function beepBoop(number) {
 $(document).ready(function() {
   $("form#be-my-neighbor").submit(function(event) {
     event.preventDefault();
+
     //gather values from input fields
     const numbers = $("#number").val();
     console.log(numbers);
+
     // //get beepBoop
     const beeperBooper = beepBoop(numbers);
     console.log(beeperBooper);
+
     //output results 
-    $("#output").beeperBooper;
+    $("#output").text(beeperBooper);
   });
 });
